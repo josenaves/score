@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Score</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="score1_text">1</string>
+    <string name="score2_text">2</string>
+    <string name="scoreVersus_text">x</string>
+	<string name="remove_point">Removing 1 point from Player %1$s</string>
+	<string name="game_finished">Match finished. Beginning another match now.</string>
+	<string name="score_too_big">Score too big to display \[%1$s\].</string>
+	
+	
+</resources>
