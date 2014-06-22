@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal"
+    tools:context="com.josenaves.scoreapp.ScoreActivity" >
+
+    <TextView
+        android:id="@+id/textScore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textVersus"
+        android:lines="1"
+        android:padding="10dp"
+        android:text="@string/score1_text"
+        android:textColor="#FFFFFFFF"
+        android:textSize="386sp" />
+    
+    <TextView
+        android:id="@+id/textVersus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="40dp"
+        android:text="@string/scoreVersus_text"
+        android:textColor="#FFFFFFFF"
+        android:textSize="386sp" />
+
+     <TextView
+         android:id="@+id/textScore2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_toRightOf="@+id/textVersus"
+         android:padding="10dp"
+         android:text="@string/score2_text"
+         android:textColor="#FFFFFFFF"
+         android:textSize="386sp" />
+    
+</RelativeLayout>

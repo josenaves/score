@@ -33,15 +33,14 @@ public final class R {
         public static final int activity_score=0x7f030000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050002;
+        public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
-        public static final int game_finished=0x7f050007;
-        public static final int hello_world=0x7f050001;
-        public static final int remove_point=0x7f050006;
-        public static final int score1_text=0x7f050003;
-        public static final int score2_text=0x7f050004;
-        public static final int scoreVersus_text=0x7f050005;
-        public static final int score_too_big=0x7f050008;
+        public static final int game_finished=0x7f050006;
+        public static final int remove_point=0x7f050005;
+        public static final int score1_text=0x7f050002;
+        public static final int score2_text=0x7f050003;
+        public static final int scoreVersus_text=0x7f050004;
+        public static final int score_too_big=0x7f050007;
     }
     public static final class style {
         public static final int AppTheme=0x7f060000;
